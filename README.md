@@ -37,7 +37,7 @@ require('nvim-treesitter.configs').setup {
 
 ```lua
 {
-  "yourusername/terraform-address.nvim",
+  "ellsclytn/terraform-address.nvim",
   ft = { "terraform", "hcl" },
   config = function()
     -- Optional: Add a keybinding
@@ -53,7 +53,7 @@ require('nvim-treesitter.configs').setup {
 
 ```lua
 use {
-  "yourusername/terraform-address.nvim",
+  "ellsclytn/terraform-address.nvim",
   ft = { "terraform", "hcl" },
   config = function()
     vim.keymap.set("n", "<leader>ta", ":TerraformAddress<CR>", {
@@ -67,7 +67,7 @@ use {
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'yourusername/terraform-address.nvim'
+Plug 'ellsclytn/terraform-address.nvim'
 ```
 
 ## Usage
